@@ -378,8 +378,339 @@ header .button a button:hover{
 }
 /* trust styling ends */
 
+.quote{
+
+    background-color: rgba(220, 220, 220, 0.093);
+}
+
+.quote-container{
+
+    text-align: center;
+}
+
+.quote-container .icon2 i{
+
+    color: rgba(7, 7, 61, 0.392);
+    font-size: 5rem;
+    padding-bottom: 0.4em;
+}
+
+.quote-container .text-quote .para4{
+
+    max-width: 30em;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: var(--head-text);
+    padding-bottom: 1em;
+    line-height: 1.4;
+}
+
+.text-quote p span{
+
+    font-size: 0.8rem;
+}
 
 
+/* quote section ends  */
+
+/* card section styling starts  */
+
+.card-container{
+
+    text-align: center;
+    padding: 1em 1em;
+}
+
+.card-container h1{
+
+    padding-bottom: 0.5em;
+}
+
+.card-container p{
+
+    max-width: 40em;
+    margin: 0 auto; 
+    padding-bottom: 1em;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+/* card-grid */
+
+.card-grid{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0em;
+    transition: all 0.5s ease-in;
+    place-items: center;
+     }
+
+.card1{
+
+    
+    width: 25em;
+    height: 25em;
+    border: 2px solid rgba(0, 0, 0, 0.063);
+    border-radius: 10px;
+    padding: 1em 1.5em;
+    line-height: 1.7;
+    
+}
+
+
+
+.card1 h3{
+
+    padding-bottom: 0.8em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: var(--normal-text);
+    text-align: center;
+}
+
+.card1 p{
+
+    line-height: 1.8;
+}
+.card1 .para5 .span{
+
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-left: 1em;
+}
+
+.card1 .card-item i p{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 1.7;
+    padding-bottom: 1em;
+}
+
+.card-button a button{
+
+    padding: 0.8em 1em;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500; 
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.card-button a button:hover{
+
+    background-color: #470ea3;
+    transform: translatey(-10%);
+}
+/* card section styling ends  */
+
+/* faq section styling starts  */
+
+.faq{
+
+    transition: all 0.5s ease-in-out;
+}
+.faq h1{
+
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+summary{
+
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 1em;
+    padding: 1em;
+    color: black;
+    background-color: rgba(220, 220, 220, 0.378);
+}
+
+
+details p{
+
+    padding: 0.5em;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    line-height: 1.5;
+
+
+}
+
+details p a{
+
+    font-weight: 500;
+}
+
+
+details ul li a:hover{
+
+    text-decoration: underline;
+   
+}
+
+
+summary:focus, summary:hover{
+
+    background-color: white;
+    transform: translateX(20%);
+}
+
+/* faq section ends  */
+
+/* trial section styling starts */
+
+.trial{
+
+    background-color: rgba(220, 220, 220, 0.127);
+}
+
+.text-container4{
+
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+
+.text-container4 h1{
+
+    font-size: 1.8rem;
+    font-family: var(--head-text);
+    padding-bottom: 0.8em;
+}
+
+.text-container4 p{
+
+    padding: 1em;
+    line-height: 1.7;
+    font-weight: lighter;
+}
+
+
+.new-button a button{
+
+    padding: 0.8em 1.2em;
+    background-color: rgb(85, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.new-button a button:hover{
+
+    background-color: #470ea3;
+    transform: translatey(50%);
+}
+
+/* trial section styling ends  */
+
+/* footer starts  */
+
+
+
+.footer-container{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+.grid{
+
+    padding-bottom: 1em;
+}
+
+
+.grid h3{
+
+    padding-bottom: 1em;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.grid ul li a{
+
+    line-height: 2;
+    color: rgba(0, 0, 0, 0.598);
+
+
+}
+
+.grid ul li a:hover{
+
+    text-decoration: underline;
+}
+
+hr{
+
+    opacity: 0.3;
+}
+
+.logo2{
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.logo2 h2 img{
+
+    width: 15%;
+}
+
+.logo2 h2{
+
+    font-weight: 500;
+}
+
+.footer-p{
+
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    padding-bottom: 1em;
+    line-height: 1.5;
+}
+
+.footer-p a:hover{
+
+    text-decoration: underline;
+}
+
+/* footer-media */
+
+.footer-media{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    transition: all 0.5s ease-in;
+}
+
+
+.social2 a i:hover{
+
+    color: black;
+    transform: translatey(-20%);
+}
+
+
+
+/* media query */
 
 @media only screen and (max-width:992px){
 
@@ -446,6 +777,75 @@ header .button a button:hover{
     
         grid-column: span 12;
     }
+
+    /* quote section  */
+
+    .quote-container .icon2 i{
+
+        color: rgba(7, 7, 61, 0.392);
+        font-size: 3rem;
+        padding-bottom: 0.4em;
+    }
+    
+    .quote-container .text-quote .para4{
+    
+        max-width: 30em;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: var(--head-text);
+        padding-bottom: 1em;
+        line-height: 1.4;
+    }
+
+    /* card section  */
+
+    .card-container{
+
+        text-align: center;
+        padding: 4em  3em;
+    }
+    
+    .card-grid{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0.8em;
+         transition: all 0.5s ease-in;
+    
+    }
+
+    .card1{
+
+    
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.063);
+        border-radius: 10px;
+        padding: 2em 0.8em;
+        
+    }
+
+    /* trial section  */
+
+    .text-container4{
+
+        text-align: center;
+        transition: all 0.5s ease-in;
+        padding: 2em 3em;
+    }
+
+    /* footer starts  */
+
+
+
+.footer-container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    /* padding: em 2em; */
+}
+    
 }
 
 
@@ -465,5 +865,149 @@ header .button a button:hover{
     .icon, .button{
 
         display: none;
+    }
+
+    /* quote section  */
+
+    .quote-container .icon2 i{
+
+        color: rgba(7, 7, 61, 0.392);
+        font-size: 1.5rem;
+        padding-bottom: 0.4em;
+    }
+    
+    .quote-container .text-quote .para4{
+    
+        max-width: 30em;
+        margin: 0 auto;
+        font-size: 0.8rem;
+        font-weight: 500;
+        font-family: var(--head-text);
+        padding-bottom: 1em;
+        line-height: 1.4;
+    }
+
+    /* card scetion starts  */
+
+    .card-container{
+
+        text-align: center;
+        padding: 0.5em 0.8em;
+    }
+
+    .card-grid{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0.8em;
+        transition: all 0.5s ease-in;
+        padding-bottom: 1em;
+         
+    }
+
+    .card1{
+
+    
+        width: 20em;
+        border: 2px solid rgba(0, 0, 0, 0.063);
+        border-radius: 10px;
+        padding: 1em 0,8em;
+        
+    }
+
+    .card1 p{
+
+        line-height: 1.8;
+    }
+
+    .card1 h3{
+
+        padding-bottom: 0.8em;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: var(--normal-text);
+    }
+
+    .card1 .para5 .span{
+
+        font-weight: bolder;
+        font-size: 1.5rem;
+    
+    }
+
+    
+
+
+    /* trial section  */
+
+    .text-container4 h1{
+
+        font-size: 1.3rem;
+        font-family: var(--head-text);
+        padding-bottom: 0.8em;
+    }
+    
+    .text-container4 p{
+    
+        padding: 1em;
+        line-height: 1.5;
+        font-weight: lighter;
+    }
+
+    .text-container4{
+
+        text-align: center;
+        transition: all 0.5s ease-in;
+        padding: 2em 3em;
+    }
+
+    /* footer starts  */
+
+
+
+.footer-container{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em;
+}
+
+    
+    
+}
+
+@media only screen and (max-width:360px){
+
+    /* card scetion starts  */
+
+    .card-container{
+
+        text-align: center;
+        padding: 0.5em 0.8em;
+    }
+
+    .card-grid{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0.8em;
+        transition: all 0.5s ease-in;
+         
+    }
+
+    .card-container{
+
+        text-align: center;
+        padding: 0em  0em;
+    }
+
+    .card1{
+
+    
+        width: 20em;
+        border: 2px solid rgba(0, 0, 0, 0.063);
+        border-radius: 10px;
+        padding: 1em 0.8em;
+        
     }
 }
