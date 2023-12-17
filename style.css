@@ -512,10 +512,7 @@ header .button a button:hover{
 
 /* faq section styling starts  */
 
-.faq{
 
-    transition: all 0.5s ease-in-out;
-}
 .faq h1{
 
     text-align: center;
@@ -562,7 +559,6 @@ details ul li a:hover{
 summary:focus, summary:hover{
 
     background-color: white;
-    transform: translateX(20%);
 }
 
 /* faq section ends  */
